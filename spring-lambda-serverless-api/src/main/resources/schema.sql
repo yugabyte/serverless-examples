@@ -1,0 +1,1 @@
+create table products (product_id  bigserial not null, description varchar(255), price numeric(10,2), product_name varchar(255), primary key (product_id));
